@@ -10,7 +10,8 @@ in {
 
     options.services.fw-fanctrl.configJsonPath = lib.mkOption {
         type = lib.types.path;
-        example = "/home/user/fw-fanctrl-config.json";
+        default = (./. + "/config.json");
+        example = "/home/user/.config/fw-fanctrl-config.json";
     };
 
     config = lib.mkIf cfg.enable {

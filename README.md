@@ -6,7 +6,7 @@ A Nix package and systemd service for [fw-fanctrl](https://github.com/TamtamHero
 
 
 ## How to use on NixOS
-1. add `</path/to/fw-fanctrl-nix/service.nix>` to your `configuration.nix` or any module imported by it, e.g. like
+1. add `/path/to/fw-fanctrl-nix/service.nix` to your `configuration.nix` or any module imported by it, e.g. like
 ```
   imports =
      [

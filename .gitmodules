@@ -1,0 +1,3 @@
+[submodule "fw-ectool"]
+	path = fw-ectool
+	url = https://github.com/ssddq/fw-ectool
